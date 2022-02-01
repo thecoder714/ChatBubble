@@ -1,5 +1,5 @@
-const app = initializeApp(firebaseConfig);
 
+import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyDL1cX6b9ONqcL7hIWpcHIqdW6MmYftbjI",
@@ -9,6 +9,8 @@ const firebaseConfig = {
     messagingSenderId: "119028641970",
     appId: "1:119028641970:web:824e925fab0a87d7f0d9ab"
 };
+const app = initializeApp(firebaseConfig);
+
 
 function logout() {
     localStorage.removeItem("user");
