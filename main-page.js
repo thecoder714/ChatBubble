@@ -16,7 +16,7 @@ const firebaseConfig = {
 
 function logout() {
     localStorage.removeItem("user");
-    window.location = "/Chat%20Website/Login%20Pages/Main%20Pages/index.html";
+    window.location = "index.html";
 }
 
 function start() {
