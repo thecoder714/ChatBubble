@@ -1,9 +1,5 @@
 const app = initializeApp(firebaseConfig);
 
-do {
-    console.log("lolol")
-} while (5 == 5);
-
 // Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyDL1cX6b9ONqcL7hIWpcHIqdW6MmYftbjI",
